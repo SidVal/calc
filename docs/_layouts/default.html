@@ -3,28 +3,7 @@
 <body class="wrap">
   {% include header.html %}
 
-    <section class="docs">
-    <div class="grid">
-
-      {% include docs_contents_mobile.html %}
-
-      <div class="unit four-fifths">
-        <article>
-          <div class="improve right hide-on-mobiles">
-            <a data-proofer-ignore href="https://github.com/SidVal/calc/edit/master/docs/{{ page.path }}"><i class="fa fa-pencil"></i> &nbsp;Mejorar esta página</a>
-          </div>
-          <h1>{{ page.title }}</h1>
-          {{ content }}
-        </article>
-      </div>
-
-      {% include docs_contents.html %}
-
-      <div class="clear"></div>
-
-    </div>
-  </section>
-  
+  {{ content }}  
 
   {% include footer.html %}
 <!--  include anchor_links.html -->
