@@ -1,8 +1,8 @@
 ---
 version: 0.0.1
 name: Calc
-description: 
-url: 
+description: Calculadoras
+url: https://sidval.github.io/calc
 repository: https://github.com/sidval/calc
 timezone: America/Los_Angeles
 twitter:
