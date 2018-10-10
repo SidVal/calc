@@ -3,6 +3,14 @@ title: Lecaps
 permalink: /docs/lecaps/
 ---
 
-# Letras del Tesoro de Capitalización
+## Concepto
+
+Letras del Tesoro de Capitalización
+
+## Uso
 
 bla bla bla
+
+## Cálculo
+
+Bla bla bla
