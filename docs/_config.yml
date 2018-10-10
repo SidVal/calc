@@ -1,0 +1,29 @@
+---
+version: 3.8.4
+name: Calc
+description: 
+url: 
+repository: https://github.com/sidval/calc
+timezone: America/Los_Angeles
+twitter:
+  username: waldd0
+# logo: "/img/logo-2x.png"
+# google_analytics_id: UA-50755011-1
+# google_site_verification: 
+#
+plugins:
+- jekyll-avatar
+- jekyll-feed
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
+sass:
+  style: compressed
+exclude:
+- ".gitignore"
+- CNAME
+- readme.md
+#
+# más info: https://raw.githubusercontent.com/jekyll/jekyll/master/docs/_config.yml
