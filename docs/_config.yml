@@ -34,6 +34,7 @@ sass:
 exclude:
 - ".gitignore"
 - CNAME
+- icomoon-selection.json
 - readme.md
 #
 # más info: https://raw.githubusercontent.com/jekyll/jekyll/master/docs/_config.yml
