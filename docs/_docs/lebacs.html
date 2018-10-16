@@ -13,10 +13,7 @@ permalink: /docs/lebacs/
       <br>
       <label>Días </label>
       <select id="cantidadDias" class="form-control">
-         <option value="45.00">28</option>
-          <option value="45.00">63</option>
-          <option value="45.00">91</option>
-
+         <option value="45.00">45</option>
       </select>
       <br>
       <label>Ganancia </label>
@@ -34,13 +31,11 @@ permalink: /docs/lebacs/
         $("#cantidadDias").change(function(){
            CalcularGanancia(); 
         });
-
         function CalcularGanancia(){
             var $plazovalor = $('#cantidadDias').val();
             var $plazotexto = $('#cantidadDias').find(":selected").text();
             $('#resultado').text((($('#monto').val() * (1 + ($plazovalor/365*$plazotexto) / 100)) - $('#monto').val()).toFixed(2));
         }
-
         $("#monto").keydown(function (e) {
             // Allow: backspace, delete, tab, escape, enter and .
             if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
@@ -56,6 +51,5 @@ permalink: /docs/lebacs/
                 e.preventDefault();
             }
         });
-
     });
 </script>
